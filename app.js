@@ -69,10 +69,9 @@ app.get('/makegirl', (req, res) => {
     const newGirl = new Girl({
         name: 'Katy',
         height: 165,
-        weight: 54,
-        specialty: 'butt',
-        race: 'asian',
-        comments: 'i look big booty asian girls'
+        weight: 55,
+        specialty: 'music',
+        comments: 'fierce'
     });
     newGirl.save()
         .then(() => {
