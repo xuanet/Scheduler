@@ -1,0 +1,49 @@
+h1 {
+    color: rgb(197, 27, 27);
+    background-color: slateblue;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+}
+
+.first {
+    color: rgb(229, 3, 180);
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: cursive;
+    /* letter-spacing: 40; not working */
+    column-count: 3;
+    border: dashed 4px rgb(255, 0, 255);
+}
+
+.second {
+    color: green;
+}
+
+
+
+#name {
+    background-color: red;
+    padding: 20px;
+}
+
+.namelabel {
+    background-color: pink;
+    color: blue;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .images {
+        white-space: nowrap;
+    }
+    img {
+        width: 45%;
+        height: auto;
+        display: inline-block;
+    }
+}

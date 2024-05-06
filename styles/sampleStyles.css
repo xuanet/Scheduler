@@ -1,0 +1,53 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Impact;
+}
+
+header {
+    position: fixed;
+    background-color: pink;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    z-index: 1;  
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+}
+
+.banner .galaxyimg {
+    width: 100%;
+    height: auto;
+}
+
+.banner .galaxytext {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-size: 4vw;
+    color: red;
+}
+
+.banner .galaxytext:hover {
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+
+.banner .galaxytext::first-line {
+    font-style: italic;
+}
+
+@media screen and (max-width: 1400px) {
+    body {
+        font-family: cursive;
+        color: hotpink;
+    }
+}
