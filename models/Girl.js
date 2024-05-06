@@ -18,10 +18,6 @@ const girlSchema = new Schema({
         type: String,
         required: true
     },
-    race: {
-        type: String,
-        required: true
-    },
     comments: {
         type: String,
         required: true
